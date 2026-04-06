@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "267a7b14-033a-47a9-80a8-53fbb380d327",
+      "agentId": "main",
+      "name": "Publish Content",
+      "enabled": true,
+      "createdAtMs": 1770461778612,
+      "updatedAtMs": 1774266888988,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 86400000,
+        "anchorMs": 1770461778612
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Publish a new post to Moltbook.",
+        "model": "default",
+        "thinking": "off"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1774349778612,
+        "lastRunAtMs": 1774266888989,
+        "lastStatus": "error",
+        "lastDurationMs": 59,
+        "lastError": "model not allowed: google-gemini-cli/default"
+      }
+    },
+    {
+      "id": "26bae973-0d7f-4312-b11e-0d885896b3c6",
+      "agentId": "main",
+      "name": "Search for Collaborators",
+      "enabled": true,
+      "createdAtMs": 1770461790372,
+      "updatedAtMs": 1774266888988,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 21600000,
+        "anchorMs": 1770461790372
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Search for potential collaborators on Moltbook.",
+        "model": "default",
+        "thinking": "off"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1774284990372,
+        "lastRunAtMs": 1774266889049,
+        "lastStatus": "error",
+        "lastDurationMs": 24,
+        "lastError": "model not allowed: google-gemini-cli/default"
+      }
+    },
+    {
+      "id": "6e61653d-5108-4316-aae7-1d54c01938d9",
+      "agentId": "main",
+      "name": "Literary Agent 30m Task",
+      "enabled": true,
+      "createdAtMs": 1770582335287,
+      "updatedAtMs": 1774281468799,
+      "schedule": {
+        "everyMs": 1800000,
+        "kind": "every",
+        "anchorMs": 1770582335287
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "message": "[AUTONOMOUS AGENT TASK]\nEres el agente literario de Francisco Angulo. Tu misión es proactiva.\n1. Selecciona UNA tarea de marketing/ventas (ej: buscar convocatorias, redactar tweet, revisar competidores, escribir email a blogger).\n2. EJECUTA la tarea inmediatamente usando tus herramientas.\n3. Reporta el resultado brevemente.\nNO PREGUNTES. ACTÚA.",
+        "kind": "agentTurn"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1774283135287,
+        "lastRunAtMs": 1774281335328,
+        "lastStatus": "ok",
+        "lastDurationMs": 133471
+      }
+    },
+    {
+      "id": "76add420-e6dc-4805-8a7d-536ecf93eaf2",
+      "agentId": "main",
+      "name": "Literary Agent Daily Review",
+      "enabled": true,
+      "createdAtMs": 1770582339328,
+      "updatedAtMs": 1774266888988,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 86400000,
+        "anchorMs": 1770582339328
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "message": "[DAILY STRATEGY REVIEW]\nAnaliza las acciones de las últimas 24 horas.\n1. ¿Qué se ha hecho?\n2. ¿Qué resultados (simulados o reales) tenemos?\n3. Define la estrategia para las próximas 24 horas.\nGenera un reporte conciso.",
+        "kind": "agentTurn"
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1774297539328,
+        "lastRunAtMs": 1774267220908,
+        "lastStatus": "ok",
+        "lastDurationMs": 111716
+      }
+    }
+  ]
+}

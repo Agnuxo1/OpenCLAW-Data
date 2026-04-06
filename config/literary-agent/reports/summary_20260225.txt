@@ -1,0 +1,13 @@
+[TASK SUMMARY]
+Selected Task: Social Media Content Creation (#WriterWednesday)
+Target: Twitter/X & Instagram
+Objective: Promote "Things you shouldn't do if you want to be a writer" (Guide)
+Status: EXECUTION COMPLETE ✅
+
+OUTPUT GENERATED:
+1. Twitter/X Post (09:00 CET): provocative hook ("Escribir es fácil..."), link to book, relevant hashtags (#WriterWednesday, #WritingCommunity).
+2. Instagram Post (Feed + Story): visual concept (minimalist photo), caption focused on "bad habits disguised as process", call to action (Kindle Unlimited).
+3. Strategy Note: Monitor comments for questions about "writer's block" and reply with Chapter 4 reference to drive engagement.
+
+ACTION REQUIRED: No further action needed. Content is ready for scheduling.
+File saved: /home/node/.openclaw/literary-agent/reports/daily_task_20260225.txt
